@@ -1,10 +1,8 @@
-// escreva um pipeline de build usando GitHub Actions para uma aplicação .Net 6
-
 name: Build
 
 on:
   workflow_dispatch:
-  
+
 jobs:
   build:
     runs-on: ubuntu-latest
